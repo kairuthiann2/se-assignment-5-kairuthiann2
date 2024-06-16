@@ -97,6 +97,7 @@ The Activity Bar is located on the far left side of the VS Code window.
 It provides quick access to different views and functionalities within VS Code.
 
 Components:
+
 Explorer- View and manage files and folders in your workspace.
 Search- Perform text searches across files in your workspace.
 Source Control- Manage version control using Git or other source control systems.
@@ -110,6 +111,7 @@ The Side Bar is adjacent to the Activity Bar on the left side of the window.
 It displays different panels based on the selected Activity Bar item, providing detailed views and tools.
 
 Components:
+
 Explorer Panel- Shows the file and folder structure of the current workspace.
 Search Panel- Allows for text search and replace operations across files.
 Source Control Panel- Displays changes, commits, and branches in the version control system.
@@ -123,6 +125,7 @@ The Editor Group occupies the central area of the VS Code window.
 This is where you write and edit your code. You can open multiple files in tabs, split the editor into multiple panes, and switch between them easily.
 
 Components:
+
 Tabs- Each open file is represented by a tab at the top of the Editor Group.
 Editor Panes: You can split the Editor Group into multiple panes to view and edit files side by side.
 Minimap- A small preview of your code located on the right side of the editor, useful for quick navigation.
@@ -134,6 +137,7 @@ The Status Bar is located at the bottom of the VS Code window.
 It provides information about the current state of the editor and workspace, as well as shortcuts to various settings and commands.
 
 Components:
+
 Information Displays- Show details like the current branch, file encoding, line and column numbers, and language mode.
 Background Tasks- Indicate ongoing processes like building, running tasks, or debugging sessions.
 Interactive Elements- Provide quick access to settings like the file encoding, end-of-line sequence, and indentation settings.
@@ -192,6 +196,7 @@ Extensions allow users to personalize their coding environment with themes, icon
 # .Finding, Installing, and Managing Extensions
 
 ---Finding extensions---
+
 Visit the Visual Studio Code Marketplace to browse and search for extensions.
 Within VS Code, open the extension’s view by clicking the Extensions icon in the Activity Bar or pressing `Ctrl + Shift + X.`
 
@@ -204,26 +209,32 @@ Then click the Install button next to the extension you want to install.
 ---Managing extensions---
 
 To View the installed extensions
+
 Visit the Extensions view (`Ctrl + Shift + X`), the installed extensions are listed under the "Installed" section.
 
 To disable or enable extensions
+
 In the Extensions view, click the gear icon next to the extension and select Disable or Enable.
 
 To Uninstall Extensions
+
 Click the gear icon next to the extension and select Uninstall.
 
 To Update Extensions:
+
 Extensions with available updates will have an update button next to them in the Extensions view. Click Update to install the latest version.
 
 # .Essential Extensions for Web Development
 
 ---HTML, CSS, and JavaScript Support---
+
 HTML Snippets- Provides HTML code snippets.
 CSS IntelliSense- Adds CSS class and id name autocomplete to VS Code.
 
 JavaScript (ES6) Code Snippets- Adds JavaScript ES6 code snippets.
 
 ---Framework and Library Support---
+
 Prettier- This is a code formatter Code. It automatically formats your code to ensure consistency.
 
 ESLint- Integrates ESLint into VS Code for identifying and fixing JavaScript code issues.
@@ -231,11 +242,13 @@ ESLint- Integrates ESLint into VS Code for identifying and fixing JavaScript cod
 React Native Tools- Provides a development environment for React Native projects.
 
 ---Version Control and Collaboration---
+
 Debugger for Chrome- Debug JavaScript code in the Chrome browser directly from VS Code.
 
 Jest- Provides integration with the Jest testing framework.
 
 ---Productivity support---
+
 Path Intellisense- Autocompletes filenames as you type.
 
 Live Server- Launches a local development server with a live reload feature for static and dynamic pages.
@@ -249,29 +262,36 @@ Live Server- Launches a local development server with a live reload feature for 
 # .Opening the Integrated Terminal
 
 Using the Menu
+
 Go to the menu bar at the top of VS Code.
 Select Terminal > New Terminal.
 
 Using Keyboard Shortcuts:
+
 Press Ctrl + (backtick) to open the integrated terminal.
 
 Using the Command Palette:
-Open the Command Palette by pressing Ctrl + Shift + P.
-Type Terminal: Create New Integrated Terminal and press Enter.
+
+Open the Command Palette by pressing `Ctrl + Shift + P`.
+Type `Terminal: Create New Integrated Terminal` and press `Enter.`
 
 # .Using the Integrated Terminal
 
 Running Commands
+
 Use the integrated terminal to run commands just as you would in any external terminal. For example, you can run build scripts, version control commands, or any other command-line tools relevant to your project.
 
 Multiple Terminals
+
 You can create multiple terminal instances. Click the `+` icon in the terminal tab to open a new terminal instance.
 Each terminal instance can be switched between using the drop-down menu in the terminal tab or by using the `Ctrl + Shift +` (backtick) shortcut.
 
 Split Terminals
+
 Split the terminal view by clicking the split terminal icon (two rectangles) next to the `+` icon. This allows you to view and use multiple terminals side by side.
 
 Customization
+
 You can change the default shell used by the terminal. Go to ` File > Preferences > Settings` and search for `terminal.integrated.shell.` Select your preferred shell (e.g., PowerShell, Git Bash, Command Prompt).
 
 # .Advantages of Using the Integrated Terminal
